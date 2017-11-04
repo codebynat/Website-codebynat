@@ -1,0 +1,248 @@
+/***** BASE STYLES *****/
+body{
+  font-family: 'Montserrat';
+}
+
+#about {
+    height: 800px;
+}
+
+#work-skills {
+    height: 700px;
+}
+
+#work-featured {
+    height: 900px;
+}
+#contact {
+    height: 400px;
+}
+
+
+/***** GRID *****/
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width: 600px;
+  float: left;
+}
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+
+/***** HEADER section*****/
+header{
+  height: 850px;
+  background: url("../img/home-img.png") no-repeat 0px 0px #5c6667;
+  /***background-position: center top;
+  background-color: #ccc7c3;***/
+  background-size: cover;
+  margin: 0px 0px 0px 0px;
+}
+header h1{
+  padding: 55px 0px 150px 0px;
+  font-family: 'Catamaran';
+  font-weight:700;
+  font-size: 30px;
+  color:#628649;
+}
+nav {
+  float: right;
+  padding: 75px 40px;
+}
+nav ul li{
+  display: inline-block;
+}
+nav ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color:#39190e;
+  padding-left: 40px;
+}
+header h2{
+  width:1200px;
+  clear: both;
+  padding: 0px 0px;
+  font-family: 'Catamaran';
+  font-size: 50px;
+  line-height: 30px;
+}
+#head-a h2 span{
+  color:#39190e;
+}
+#head-a h2 {
+  color: #676e7b;
+  text-align: left;
+  letter-spacing: 2px;
+}
+#head-b h2 {
+  color: #676e7b;
+  text-align: left;
+  letter-spacing: 2px;
+}
+#head-b h2 span{
+  color:#39190e;
+}
+#head-c h2 {
+  color: #676e7b;
+  text-align: left;
+  letter-spacing: 2px;
+}
+#head-c h2 span{
+  color:#39190e;
+}
+
+
+/***** ABOUT section*****/
+#about {
+  background-color: #e6e7ec;
+}
+
+#about .full-width{
+  padding: 100px 0 ;
+}
+#about h2{
+  font-family: 'Catamaran';
+  font-size: 50px;
+  color: #39190e;
+}
+#about p{
+  font-family: 'Montserrat';
+  font-size: 21px;
+  line-height: 36px;
+  color: #676e7b;
+  text-align: justify;
+  padding: 0 80px 0 0;
+  margin: 0 0px 0px 0;
+}
+/***#about-img{
+  border: 12px solid #39190e;
+  margin: 60px 10px 10px 200px;
+  position: relative;
+}***/
+
+/***WORK-SKILLS***/
+#work-skills {
+  /**background: url("../img/skillsbackg-img.png") no-repeat 0px 0px #5c6667;**/
+  background-size: cover;
+  background-color: #ffff;
+}
+#work-skills .full-width{
+  padding: 100px 0;
+}
+#work-skills img{
+  padding-top: 40px;
+}
+#work-skills h2{
+  font-family: 'Catamaran';
+  font-weight:bold;
+  font-size: 50px;
+  color: #39190e;
+}
+#work-skills h3{
+  font-family: 'Catamaran';
+  font-weight:bold;
+  font-size: 30px;
+  color: #39190e;
+  text-align: center;
+}
+#work-skills .third-width {
+  text-align: center;
+}
+#work-skills p{
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 30px;
+  color: #676e7b;
+  text-align: justify;
+  padding: 0 30px 0 30px;
+}
+
+
+/***WORK-FEATURED***/
+#work-featured {
+  background-color: #ffffff;
+}
+#work-featured .full-width{
+  padding: 80px 0;
+}
+#work-featured img{
+  border: 3px solid #39190e;
+  padding: 5px 5px 5px 5px;
+}
+#work-featured .third-width {
+    text-align: center;
+}
+#work-featured h2{
+  font-family: 'Catamaran';
+  font-weight:bold;
+  font-size: 50px;
+  color: #39190e;
+}
+
+#work-featured h3{
+  font-family: 'Catamaran';
+  font-weight:bold;
+  font-size: 30px;
+  color: #39190e;
+  text-align: center;
+}
+#work-featured p{
+  font-family: 'Montserrat';
+  font-size: 18px;
+  line-height: 30px;
+  color: #676e7b;
+  text-align: center;
+  padding: 0 30px 0px 30px;
+}
+#work-featured p{
+  text-decoration: none;
+}
+/***CONTACT***/
+#contact{
+  /**background: url("../img/skillsbackg-img.png") no-repeat 0px 0px #5c6667;**/
+  background-size: cover;
+  background-color: #e6e7ec;
+  text-align: left;
+  padding: 80px 0;
+}
+#contact-img{
+  border: 12px solid #39190e;
+  margin: 60px 10px 10px 50px;
+  padding: 2px 2px 2px 2px;
+}
+#contact h2, #email-header, #socialmedia-header, #contact ul, #envelope{
+    padding-left: 115px;
+
+}
+#contact h2{
+    padding-top: 80px;
+    color: #39190e;
+}
+#contact a {
+    text-decoration: none;
+    color:#628649;
+    font-weight: bold;
+    font-size:28px;
+    letter-spacing: 1px;
+}
+#contact ul {
+    list-style: none;
+    word-spacing: 8px;
+}
+#contact h3{
+    color: #39190e;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 50px;
+    padding-right: 48px;
+}
